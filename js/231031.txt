@@ -1,0 +1,47 @@
+오늘한것
+조건문 반복문 등등 그냥 기초문법
+
+[조건문]
+- if else문은 타 언어랑 비슷
+if(){}
+else{}
+
+- 신기한걸로 if else문 실행하는 방법 배움
+(조건) ? 참일때 실행할 명령 : 거짓일때 실행할 명령
+
+예시) (10 > 50) ? alert("참입니다.") : alert("거짓입니다.")
+
+-switch문
+<script>
+ var something = prompt("1,2중에 입력하세요");
+
+switch(something){
+case "1" : document.write(<p>"너는1을입력했어"</p>);
+break;
+case "2" : document.write(<p>"너는2를입력했어"</p>);
+break;
+default: alert("잘못입력함");
+}
+
+*디폴트에는 break안씀
+
+[반복문]
+-for문
+for(var i=0; i<5; i++){
+alert(i+"번 반복")
+}
+
+-while문
+var i = 0
+while(i<5)
+{alert("아직i가 5보다 작음");
+i++;
+}
+
+-do while문
+var i = 0;
+do{
+alert("조건체크하기전에 무조건1번은 실행함);
+i++;
+}
+while(i==3)
